@@ -25,7 +25,7 @@ const HomeScreen = ({ navigation }) => {
     <View style={{ flex: 1 }}>
       <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
         <Image
-          source={require('./assets/iitd.jpg')}
+          source={require('./iitd.jpg')}
           style={{ flex: 1, width: '80%', height: '20%' }}
           resizeMode="cover"
         />
@@ -134,7 +134,7 @@ const Bus1Screen = () => {
           <PanGestureHandler onGestureEvent={onPanGestureEvent}>
             <Animated.View style={styles.imageContainer}>
               <Animated.Image
-                source={require('./assets/iitd.jpg')}
+                source={require('./iitd.jpg')}
                 resizeMode="contain"
                 style={styles.image}
               />
@@ -193,7 +193,7 @@ const Bus2Screen = () => {
           <PanGestureHandler onGestureEvent={onPanGestureEvent}>
             <Animated.View style={styles.imageContainer}>
               <Animated.Image
-                source={require('./assets/iitd.jpg')}
+                source={require('./iitd.jpg')}
                 resizeMode="contain"
                 style={styles.image}
               />
